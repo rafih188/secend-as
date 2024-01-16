@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --dark:#131318;
+    --regular-font:'Mulish', sans-serif;
+    --reg-orange:#FF5400;
+    --white-type:#fff;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(96, 87, 75);
+    
+}
+.banner{
+    height: calc(100vh - 50px);
+    width: 100%;
+    background-color: rgb(53, 42, 42);
+}
