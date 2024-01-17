@@ -242,7 +242,7 @@ main {
 
 .thirdtext {
     height: 19rem;
-    margin-top: 3rem;
+    margin-top: .5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -291,7 +291,7 @@ main {
     justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.179), rgba(0, 0, 0, 0.145)),
-    url('/Images/nature6.png');
+        url('/Images/nature6.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -305,7 +305,7 @@ main {
     justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.179), rgba(0, 0, 0, 0.092)),
-    url('/Images/nature10.png');
+        url('/Images/nature10.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -314,7 +314,7 @@ main {
 
 /* secend line image started here 
 ====== */
-.secendline{
+.secendline {
     color: var(--white-type);
     text-align: center;
     font-size: 1.2rem;
@@ -325,48 +325,52 @@ main {
     height: 32%;
     width: 100%;
 }
-.thirdimage{
+
+.thirdimage {
     height: 98%;
     width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.179), rgba(0, 0, 0, 0.092)),
-    url('/Images/nature7.png');
+        url('/Images/nature7.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
 }
-.fourthimage{
+
+.fourthimage {
     height: 98%;
     width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.179), rgba(0, 0, 0, 0.092)),
-    url('/Images/nature8.png');
+        url('/Images/nature8.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
 }
-.fifthimage{
+
+.fifthimage {
     height: 98%;
     width: 28%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.179), rgba(0, 0, 0, 0.092)),
-    url('/Images/nature11.png');
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.179), rgba(0, 0, 0, 0.092)),
+        url('/Images/nature11.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
 }
+
 /* third line image started header 
 ========== */
-.thirdline{
+.thirdline {
     color: var(--white-type);
     text-align: center;
     font-size: 1.2rem;
@@ -377,31 +381,110 @@ main {
     display: flex;
     padding-top: 1rem;
 }
-.sixthimage{
+
+.sixthimage {
     height: 100%;
     width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.179), rgba(0, 0, 0, 0.092)),
-    url('/Images/nature13.png');
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.179), rgba(0, 0, 0, 0.092)),
+        url('/Images/nature13.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
 }
-.seventhimage{
+
+.seventhimage {
     height: 100%;
     width: 58%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.179), rgba(0, 0, 0, 0.092)),
-    url('/Images/nature12.png');
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.179), rgba(0, 0, 0, 0.092)),
+        url('/Images/nature12.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
+}
+
+/* fourth page style started here =========== */
+.fourthpage {
+    height: 100vh;
+    margin-top: 3rem;
+    width: 100%;
+    /* background-color: #9797dc; */
+}
+
+.whychose {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.whychose>h2 {
+    padding: 1rem;
+    color: var(--dark);
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+.whychose>p {
+    padding: 0.5rem 1rem;
+    color: rgba(58, 58, 95, 0.7);
+    font-size: 1rem;
+    display: flex;
+    width: 35rem;
+    font-weight: 400;
+}
+
+.cardfirstline {
+    height: 17rem;
+    width: 100%;
+    display: flex;
+    gap: 2%;
+}
+
+.card1 {
+    height: 100%;
+    width: 49%;
+    padding: 0.5rem;
+    align-items: center;
+    border-radius: 16px;
+    color: var(--dark);
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card1>h2 {
+    padding-top: .5rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.card1>p {
+    padding-top: .5rem;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    /* 162.5% */
+}
+
+.card2 {
+    height: 100%;
+    width: 49%;
+
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
 }
 
 /* style for mobile device ========================================= */
