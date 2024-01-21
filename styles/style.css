@@ -291,7 +291,7 @@ main {
     justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.179), rgba(0, 0, 0, 0.145)),
-        url('nature6.png');
+        url('/nature6.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -305,7 +305,7 @@ main {
     justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.179), rgba(0, 0, 0, 0.092)),
-        url('nature10.png');
+        url('/nature10.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -333,7 +333,7 @@ main {
     justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.179), rgba(0, 0, 0, 0.092)),
-        url('nature7.png');
+        url('/nature7.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -347,7 +347,7 @@ main {
     justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.179), rgba(0, 0, 0, 0.092)),
-        url('nature8.png');
+        url('/nature8.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -361,7 +361,7 @@ main {
     justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.179), rgba(0, 0, 0, 0.092)),
-        url('nature11.png');
+        url('/nature11.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -389,7 +389,7 @@ main {
     justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.179), rgba(0, 0, 0, 0.092)),
-        url('nature13.png');
+        url('/nature13.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -403,7 +403,7 @@ main {
     justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.179), rgba(0, 0, 0, 0.092)),
-        url('nature12.png');
+        url('/nature12.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
