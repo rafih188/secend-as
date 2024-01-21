@@ -78,7 +78,7 @@ nav {
 .banner {
     height: calc(100vh - 50px);
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.315), rgba(9, 9, 9, 0.244)), url('nature1.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.315), rgba(9, 9, 9, 0.244)), url('/nature1.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
